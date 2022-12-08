@@ -1,7 +1,7 @@
 1 Prime no...
 let num=7;
 let count=0;
-for(let i=0; i<=num; i--){
+for(let i=0; i<=num; i++){
 if(num%i==0){
 count++
 
@@ -17,7 +17,7 @@ console.log("not prime")
 
 2. palindrome....
 let str="naman";
-let bag=0;
+let bag='';
 for(let i=str.length-1; i>=0; i--){
 bag+=str[i];
 }
